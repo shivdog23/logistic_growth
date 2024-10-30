@@ -1,6 +1,6 @@
 #Script to plot data and model
 
-growth_data <- read.csv("???")
+growth_data <- read.csv("experiment.csv")
 
 logistic_fun <- function(t) {
   
